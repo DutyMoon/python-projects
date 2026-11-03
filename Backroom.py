@@ -146,7 +146,7 @@ while True:
         elif button == "inventory" :
           button = input("Tab: ")
         elif button == "pick up" :
-          button = inpit("U: ")
+          button = input("U: ")
           continue
     elif button == "exit game" :
       exit_pop_up = input("are u sure you want to exit the game? yes/no: ").lower().strip()
